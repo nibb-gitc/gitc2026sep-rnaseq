@@ -10,6 +10,6 @@ library(devtools)
 install_github("ctlab/fgsea")
 install_github("jeroen/jsonlite")
 
-BiocManager::install(c("edgeR", "Rgraphviz", "AnnotationHub", "clusterProfiler", "GOSemSim"))
+BiocManager::install(c("edgeR", "Rgraphviz", "AnnotationHub", "clusterProfiler", "GOSemSim", "fgsea"))
 
 BiocManager::install(c("GenomeInfoDbData", "org.Mm.eg.db", "org.Sc.sgd.db"))
